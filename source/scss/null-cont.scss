@@ -1,0 +1,30 @@
+*{padding: 0; margin: 0; border: 0;}
+html, body {min-height: 100%; width: 100%; box-sizing: border-box; font-size: 16px;}
+// input, button, textarea {font-family: inherit; outline-style: none;}
+button {cursor: pointer;}
+a, a:visited {text-decoration: none; color: inherit;}
+ul, li {list-style: none;}
+h1, h2, h3, h4, h5, h6 {font-size: inherit; font-weight: inherit;}
+input {color: #917B7B;}
+
+@font-face {
+  font-family: 'NotoSans-Italic';
+  src: url("../../fonts/NotoSans-Italic.eot");
+  src: url("../../fonts/NotoSans-Italic.eot?#iefix") format('embedded-opentype'),
+       url("../../fonts/NotoSans-Italic.woff2") format('woff2'),
+       url("../../fonts/NotoSans-Italic.woff") format('woff'),
+       url("../../fonts/NotoSans-Italic.otf") format('otf'),
+       url("../../fonts/NotoSans-Italic.ttf") format('truetype'),
+       url("../../fonts/NotoSans-Italic.svg#NotoSans-Italic") format('svg');
+}
+
+@font-face {
+  font-family: 'NotoSans-Regular';
+  src: url("../../fonts/NotoSans-Regular.eot");
+  src: url("../../fonts/NotoSans-Regular.eot?#iefix") format('embedded-opentype'),
+       url("../../fonts/NotoSans-Regular.otf") format('otf'),
+       url("../../fonts/NotoSans-Regular.woff") format('woff'),
+       url("../../fonts/NotoSans-Regular.woff2") format('woff2'),
+       url("../../fonts/NotoSans-Regular.ttf") format('truetype'),
+       url("../../fonts/NotoSans-Regular.svg#NotoSans-Regular") format('svg');
+}
